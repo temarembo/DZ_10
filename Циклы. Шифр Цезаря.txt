@@ -1,0 +1,9 @@
+i = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюяа'
+a = input()
+a = a.lower()
+k = a
+for b in range(len(a)):
+    for z in range(len(i)-1):
+        if a[b] == i[z]:
+            print(i[z+1])
+            break
